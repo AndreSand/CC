@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
 
         myWebView = (WebView) findViewById(R.id.webview);
         myWebView.getSettings().setJavaScriptEnabled(true);
+        //google.com
         myWebView.loadUrl("http://www.compelling-conversations.com/");
 
     }
